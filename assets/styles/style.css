@@ -9,17 +9,17 @@
 
 body {
   background: #f1f1f1;
-  width: 100%;
-  max-width: 1000px;
+  width: 100vw;
+  max-width: 1224px;
   line-height: 1.5;  
   font-size: 15px;
 }
 
 .my-blog {
-  width: 96vw;
+  width: 100%;
   text-align: center;
   padding: 25px 0;
-  /* background: blue; */
+  background: blue;
 }
 
 .my-blog button {
@@ -28,13 +28,18 @@ body {
   border: none;
   padding: 0 5px;
 }
-/* 
-.section1 {
-  justify-content: space-between;
-} */
+
+.all-sections {
+  display: grid;
+  grid-template-columns: 70% 1fr;
+} 
+
+#section1 {
+  width: 60%;
+}
 
 .tittle-blog {
-  width: 96vw;
+  width: 62vw;
   background: #fff;
   height: fit-content;
   margin: 0 1rem;
@@ -69,7 +74,6 @@ body {
   margin: 13px 0;
   background: #fff;
   border: 1px solid #9e9e9e9e;
-  
 }
 
 .black-zero, .black-two {
@@ -86,7 +90,7 @@ body {
 /* second bloc */
 
 .blog-entry {
-  width: 96vw;
+  width: 62vw;
   background: #fff;
   height: fit-content;
   margin: 0 1rem;
@@ -205,16 +209,73 @@ ul {
   padding: 15px;
 }
 
+.bloc-c p {
+  padding: 10px;
+  display: inline-block;
+} 
+
 .travel {
   font-size: 12px !important;
-  background: #000;
-  color: #fff;
+  background: #000 !important;
+  color: #fff !important;
   padding: 2px 8px;
 }
 
-.button {
-  font-size: 12px !important;
+.bloc-c span {
+  font-size: 10px !important;
   padding: 2px 8px;
   background: #f1f1f1;
-  
+  display: inline-block !important;
+  margin-bottom: 12px;
+}
+
+/* footer */
+
+.footer {
+  background-color: #616161;
+  width: 100vw;
+  height: 100px;
+  margin-top: 15px;
+}
+
+.footer-btn {
+  font-size: 15px;
+  padding: 15px;
+}
+
+.previous {
+  padding: 8px 20px;
+  background: #818181;
+  color: #fff;
+  border: none;
+}
+
+.next {
+  padding: 8px 20px;
+  background: #000;
+  color: #fff;
+  border: none;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .my-blog {
+    width: 100vw;
+  }
+  .all-sections {
+    width: 100%;
+    display: block;
+  }
+
+  #section1 {
+    width: 100%;
+  }
+
+  #section2 {
+    width: 100%;
+  }
+
+  .footer {
+    width: 100%;
+  }
 }
