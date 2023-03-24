@@ -4,13 +4,13 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 body {
   background: #f1f1f1;
   margin: 0;
-  padding: 0;
+  padding: 0; 
 }
 
 .my-blog {
@@ -51,21 +51,25 @@ body {
   box-shadow: 0 4px 8px 0 #0003, 0 6px 20px 0 #00000030;
 }
 
-.image1, .image2 {
+.image1, 
+.image2 {
   width: 100%;
 }
 
-.bloc1, .bloc2 {
+.bloc1, 
+.bloc2 {
   width: 100%;
   padding: 1rem;
 }
 
-.bloc1 h2, .bloc2 h2 {
+.bloc1 h2, 
+.bloc2 h2 {
   margin: 0 auto 15px;
   font-size: 15px;
 }
 
-.bloc1 a, .bloc2 a {
+.bloc1 a, 
+.bloc2 a {
   color: #757575;
 }
 
@@ -113,7 +117,7 @@ body {
 /* bloc-a */
 
 .bloc-a {
-  background: #fff; 
+  background: #fff;
   width: 100%;
   height: fit-content;
   margin: 0 0 15px;
@@ -123,6 +127,10 @@ body {
 
 .bloc-a img {
   width: 100%;
+}
+
+.bloc-a h4 {
+  padding: 0 10px;
 }
 
 .bloc-a p {
@@ -138,7 +146,6 @@ body {
   width: 30vw;
   width: 100%;
   border: 1px solid #f1f1f1;
-  /* margin-left: 15px; */
   box-shadow: 0 4px 8px 0 #0003, 0 6px 20px 0 #00000030;
 }
 
@@ -211,7 +218,7 @@ ul {
 .bloc-c p {
   padding: 10px;
   display: inline-block;
-} 
+}
 
 .travel {
   font-size: 12px !important;
@@ -263,6 +270,10 @@ ul {
   color: #fff;
   border: none;
   margin-bottom: 20px;
+}
+
+.next i {
+  font-size: 8px;
 }
 
 @media screen and (max-width: 768px) {  
