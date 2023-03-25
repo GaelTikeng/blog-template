@@ -4,7 +4,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  font-family: "Raleway", sans-serif;
+  font-family: Raleway, sans-serif;
 }
 
 body {
@@ -265,7 +265,7 @@ ul {
   background: #818181;
   color: #fff;
   border: none;
-  cursor: not-allowed ;
+  cursor: not-allowed;
 }
 
 .previous:hover {
